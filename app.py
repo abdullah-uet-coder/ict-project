@@ -143,7 +143,7 @@ with tab2:
         st.metric("Tire Risk", risk)
 
     with col3:
-        risk = "Medium" if mileage > 100000 else "Low"
+        risk = "High" if mileage > 100000 else "Low"
         st.metric("Engine Risk", risk)
 
 # ----------------------------
